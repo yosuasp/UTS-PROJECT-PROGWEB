@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,36 +19,83 @@
         <main>
             <div class="main container">
                 <div class="main-img">
-                    <img src="img/asset/bruno.jpg" alt="">
+                    <img src="img/asset/bruno2.jpg" alt="">
                 </div>
+                
                 <div class="main-topic">
                     <h1>Bruno Mars Concert in Jakarta</h1>
                     <div class="details">
                         <p><strong>Date:</strong> 15 March 2025</p>
                         <p><strong>Location:</strong> Jakarta</p>
                         <p><strong>Start Time:</strong> 8:00 PM</p>
-                        <p><strong>Start  Price Form:</strong> Rp. 800,000</p>
+                        <p><strong>Start  Price Form:</strong> Rp. 900,000</p>
                         <p><strong>Ticket Availability:</strong> Available</p>
                     </div>
                     <div class="description">
                         <h2>Description:</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod turpis quis tincidunt convallis. Nulla facilisi. Ut sollicitudin ultricies eros, et aliquam tortor.</p>
                         <p>Proin feugiat magna nec lorem accumsan, vel varius mauris vehicula. Nullam ut ultricies lorem. Duis semper tellus a enim rutrum consequat.</p>
+              
+                    
                     </div>
-                    <div class="purchase">
-                        <a href="checkout.html">Buy Tickets</a>
-                    </div>
+                  
                 </div>
-            </div>
-            
-       
 
-            <footer>
-                 <a href="index.html">Back to Home</a>
-            </footer>
-        </main>
+                
+            </div>
+            <div>
+                <h2 class="judulPlanKonser">Venue Concert Plan</h2>
+            </div>
+            <div class="ticket-selection">
+                <div>
+                    
+                </div>
+                <img class="kursi" src="img/asset/kursi.jpg">
+                <div id="total-price"></div>
+            </div>
+
+            <!-- End of Ticket selection -->
+
+            
+            <div class="ticket-options">
+                <label class="color" for="reguler">Reguler: <span class="stock">(Stock: 30)</span></label>
+                <input type="number" id="reguler" name="reguler" min="0" max="30" value="0">
+                <br>
+                <label class="color1" for="regulerplus">Reguler+: <span class="stock">(Stock: 20)</span></label>
+                <input type="number" id="regulerplus" name="regulerplus" min="0" max="20" value="0">
+                <br>
+                <label class="color2" for="vip">VIP: <span class="stock">(Stock: 25)</span></label>
+                <input type="number" id="vip" name="vip" min="0" max="25" value="0">
+                <br>
+                <label class="color3" for="vipplus">VIP+: <span class="stock">(Stock: 20)</span></label>
+                <input type="number" id="vipplus" name="vipplus" min="0" max="20" value="0">
+                <br>
+                <label class="color4" for="vvip">VVIP: <span class="stock">(Stock: 10)</span></label>
+                <input type="number" id="vvip" name="vvip" min="0" max="10" value="0">
+                <br>
+                <label class="color5" for="unlimited">VVIP+: <span class="stock">(Stock: 5)</span></label>
+                <input type="number" id="unlimited" name="unlimited" min="0" max="5"  value="0">
+                <br>
+          
+        
+       
+            </div>
+
+            <div class="purchase">
+                <a href="checkout.html" class="button">Buy Tickets</a>
+            </div>
+        </div>
+
+        
     </div>
 
+    
+    <a href="index.html" class="button">Back to Home</a>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 LocalNight. All rights reserved.</p>
+        </div>
+    </footer>
+</main>
 </body>
 </html>
-

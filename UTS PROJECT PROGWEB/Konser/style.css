@@ -301,6 +301,8 @@ main {
     justify-content: center;
 }
 
+
+
 .recomend-card{
     max-width: fit-content;
     border-radius: .6rem;
@@ -361,5 +363,15 @@ main {
 .price-status {
     display: flex;
     justify-content: space-between;
+}
+
+
+footer {
+    background-color: #1976D2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
+    width: 100%;
 }
 
